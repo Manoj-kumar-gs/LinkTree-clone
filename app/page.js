@@ -25,7 +25,7 @@ export default function Home() {
       <h1 className="font-extrabold text-[70px] text-[#502274]">Everything you are. In one, simple link in bio.</h1>
       <p className="text-[17px] font-semibold text-white">Join 70M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles.</p>
       <div className="flex items-center gap-2 my-8">
-        <button className="bg-[#502274] text-black font-bold py-4 px-12 rounded-full cursor-pointer hover:scale-105 transition-transform duration-200 ease-in-out">Claim Your Linktree</button>
+        <button className="bg-[#502274] text-black font-bold py-4 px-12q rounded-full cursor-pointer hover:scale-105 transition-transform duration-200 ease-in-out">Claim Your Linktree</button>
       </div>
       </div>
     </div>
