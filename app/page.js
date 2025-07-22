@@ -35,13 +35,13 @@ export default function Home() {
       </div>
       </div>
       <div className="w-[44vw] flex items-center justify-center">
-       <img src="/hero.png" alt="hero image" srcSet="" className="w-[37vw] cursor-pointer"/>
+       <Image width={500} height={500} src="/hero.png" alt="hero image" srcSet="" className="w-[37vw] cursor-pointer"/>
       </div>
     </div>
 
     <div className="grid grid-cols-2 bg-[#e9c0e9] w-[100vw] h-[100vh]">
       <div className="w-[44vw] flex items-center justify-center">
-       <img src="/home.png" alt="hero image" srcSet="" className="w-[37vw] cursor-pointer"/>
+       <Image width={500} height={500} src="/home.png" alt="hero image" srcSet="" className="w-[37vw] cursor-pointer"/>
       </div>
       <div className="w-[44vw] flex flex-col items-start justify-center gap-4 p-8">
       <h1 className="font-extrabold text-[70px] text-[#502274]">Everything you are. In one, simple link in bio.</h1>

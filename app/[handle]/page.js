@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import mongodbconnect from "@/lib/mongodb"
 import { notFound } from 'next/navigation'
+import Image from "next/image";
 
 const page = async ({ params }) => {
   const handle = (await params.handle);
@@ -15,9 +16,9 @@ const page = async ({ params }) => {
     }
   return (
     <div className='bg-[#780016] w-[100vw] h-[100vh] absolute top-0 flex justify-center items-start text-[#e9c0e9] z-12 py-10'>
-      <Link href="/"><img src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66634daccb34e6d65a41c76d_download.svg" className='w-[13vw] h-[13vh] cursor-pointer absolute top-0 left-3' alt="logo" srcSet="" /></Link>
+      <Link href="/"><Image width={32} height={32} src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66634daccb34e6d65a41c76d_download.svg" className='w-[13vw] h-[13vh] cursor-pointer absolute top-0 left-3' alt="logo" srcSet="" /></Link>
        {item && <div className="photo flex justify-center flex-col items-center gap-4"> 
-            <img src={item.profilepic} alt="profile pic" className='rounded-full'/>
+            <Image width={128} height={128} src={item.profilepic} alt="profile pic" className='rounded-full'/>
             <span className="font-extrabold text-2xl">@{item.handle}</span>
             <span className="desc w-80 text-center font-bold text-xl">{item.description}</span>
             <div className="links">

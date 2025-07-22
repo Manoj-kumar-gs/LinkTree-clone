@@ -1,11 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <nav className='bg-white flex justify-between items-center rounded-full py-11 pl-12 pr-3 w-[88vw] h-[10vh] fixed top-[8vh] left-[6vw] right-[6vw] z-10'>
       <div className='flex items-center space-x-25'>
-      <Link href="/"><img src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66634daccb34e6d65a41c76d_download.svg" className='w-[8vw] h-[8vh] cursor-pointer' alt="logo" srcSet="" /></Link>
+      <Link href="/"><Image width={32} height={32} src="https://cdn.prod.website-files.com/666255f7f2126f4e8cec6f8f/66634daccb34e6d65a41c76d_download.svg" className='w-[8vw] h-[8vh] cursor-pointer' alt="logo" srcSet="" /></Link>
 
       <ul className='flex gap-3 text-[18px] font-semibold'>
         <Link href="/"><li className='cursor-pointer hover:bg-gray-200 p-3 rounded-lg'>Home</li></Link>

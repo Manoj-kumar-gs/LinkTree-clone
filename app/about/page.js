@@ -10,7 +10,7 @@ const page = () => {
             </p>
             <p className="text-base text-gray-600 mb-6">
                 Our mission is to help you connect all your important links in one beautiful, customizable place.
-                Whether you're a creator, business, or just want to share your favorite links, our platform makes it easy and elegant.
+                Whether you are a creator, business, or just want to share your favorite links, our platform makes it easy and elegant.
             </p>
             <ul className="text-left text-gray-700 mx-auto mb-6 max-w-md text-base list-disc list-inside">
                 <li>✨ Simple and intuitive interface</li>
